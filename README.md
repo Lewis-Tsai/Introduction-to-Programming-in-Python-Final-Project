@@ -1,9 +1,40 @@
-# 2022 Spring Introduction to Programming in Python Final Project
-## Goal
+<a name="readme-top"></a>
+
+<!-- PROJECT SHIELDS -->
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+# <center>Introduction to Programming in Python Final Project</center>
+
+<div align="center">
+
+  <p align="center">
+    project_description
+    <br />
+    <a href="https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project">View Demo</a>
+    ·
+    <a href="https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/issues">Request Feature</a>
+  </p>
+</div>
+
+## Semester and class
+2022 Spring NTHU CS 135800	
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
 Create a money management application.
 
-
-## Required Features and Widgets
+## Features
 * Read and save file (keep the records after closing and reopening the window).
 * Add a record using tkinter.Entry.
 * Prevent users from adding a record with invalid date format.
@@ -12,40 +43,8 @@ Create a money management application.
 * View the balance using tkinter.Label.
 * Find records under a category.
 
-## Reference Steps
-**1. Design your layout and arrange the widgets.**
+## UI
 ![](https://i.imgur.com/RB5QmXV.png)
-
-**2. Rearrange the program flow so that the file is read before the window shows and written after the window is closed.**
-* Instantiate Categories and Records.
-* Create the window and the widgets and call tkinter.mainloop().
-* Comment out the while loop prompting for commands and just call records.save() after tkinter.mainloop().
-
-**3. Implement the "update initial money" feature.**
-* Update the attribute self._initial_money in the Records class.
-* Update the balance in the bottom left corner.
-* Check if the initial money is really updated in the file after closing the window.
-
-**4. Show the records read from file in the Listbox.**
-**5. Implement the "add a record" feature.**
-* Call the add method of the Records class.
-* Add the record to the Listbox.
-
-**6. Implement the "delete the selected record" feature.**
-* Get the index of the selected record.
-* Call the delete method of the Records class.
-* Delete the record in the Listbox.
-* Update the balance.
-
-**7. Implement the "find the records under a category" feature.**
-* Call the find_subcategories method of the Categories class.
-* Filter the records and update the content of the Listbox.
-* Update the message in the bottom left corner.
-
-**8. Implement the "reset to show all records back" feature.**
-* Update the content of the Listbox.
-* Update the message in the bottom left corner.
-
 
 ## Related Knowledge
 **1. tkinter widges**
@@ -66,3 +65,27 @@ Create a money management application.
 
 ## Structure
 pymoney is the top module.
+
+## Contact
+
+[![gmail][gmail]][gmail-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project.svg?style=for-the-badge
+[contributors-url]: https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/contributors
+[forks-shield]: https://img.shields.io/github/forks/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project.svg?style=for-the-badge
+[forks-url]: https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/network/members
+[stars-shield]: https://img.shields.io/github/stars/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project.svg?style=for-the-badge
+[stars-url]: https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project.svg?style=for-the-badge
+[issues-url]: https://github.com/Lewis-Tsai/2022-Spring-Introduction-to-Programming-in-Python-Final-Project/issues
+[license-shield]: https://img.shields.io/github/license/Lewis-Tsai/repo_name.svg?style=for-the-badge
+[license-url]: https://github.com/Lewis-Tsai/repo_name/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/lewis-tsai-7b570421a
+
+[gmail]: https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white
+[gmail-url]: mailto:A38050787@gmail.com
